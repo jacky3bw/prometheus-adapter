@@ -1,4 +1,4 @@
-ARG GOVERSION=1.17
+ARG GOVERSION
 
 FROM golang:${GO_VERSION} as build
 
